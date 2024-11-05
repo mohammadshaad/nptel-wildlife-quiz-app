@@ -137,7 +137,7 @@ export default function Quiz({ week }: QuizProps) {
           Try Again
         </Button>
         {week < 12 && (
-          <Link href={`/week/${week + 1}`}>
+          <Link href={`/week/${week + 1}`} onClick={() => {resetQuiz(); setCompleteQuiz(false)}}>
             <Button>Next Week</Button>
           </Link>
         )}
