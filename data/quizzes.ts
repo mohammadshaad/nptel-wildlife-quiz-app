@@ -254,125 +254,195 @@ export const quizzes: Quiz[] = [
                 correctAnswer: 1,
             },
             {
-                question: `At the compensation point, photosynthesis rate equals to`,
+                question: `At the compensation point`,
                 options: [
-                    "maximum respiration rate",
-                    "minimum respiration rate",
-                    "maximum assimilation rate",
-                    "minimum assimilation rate",
-                ],
-                correctAnswer: 1,
-            },
-            {
-                question: `Plants do not have a true nervous system, but they do exhibit a range of behaviour. Such behaviour is called`,
-                options: [
-                    "adaptation",
-                    "responsiveness",
-                    "movement",
-                    "reaction",
-                ],
-                correctAnswer: 1,
-            },
-            {
-                question: `Which of the following is not an example of homeostasis?`,
-                options: [
-                    "the regulation of blood sugar levels",
-                    "the regulation of body temperature",
-                    "the regulation of metabolic rates",
-                    "the regulation of ecological zones",
-                ],
-                correctAnswer: 3,
-            },
-            {
-                question: `What type of evolution takes place when two different species evolve similar traits due to similar environments?`,
-                options: [
-                    "convergent evolution",
-                    "divergent evolution",
-                    "parallel evolution",
-                    "adaptive radiation",
+                    "photosynthesis = respiration",
+                    "photosynthesis < respiration",
+                    "photosynthesis > respiration",
+                    "photosynthesis = 0",
                 ],
                 correctAnswer: 0,
             },
             {
-                question: `Which of the following levels of ecological organization is most specific?`,
+                question: `Tree --> frugivorous birds --> hawk represents`,
                 options: [
-                    "population",
-                    "community",
-                    "ecosystem",
-                    "biosphere",
+                    "upright pyramid of numbers",
+                    "inverted pyramid of numbers",
+                    "spindle pyramid of numbers",
+                    "dumb-bell pyramid of numbers",
+                ],
+                correctAnswer: 2,
+            },
+            {
+                question: `Glacial lakes are typical examples of`,
+                options: [
+                    "eutrophic lakes",
+                    "hypereutrophic lakes",
+                    "oligotrophic lakes",
+                    "mesotrophic lakes",
+                ],
+                correctAnswer: 2,
+            },
+            {
+                question: `Consider the food chain: grass --> grasshopper --> frog --> snake --> hawk. In this food chain,`,
+                options: [
+                    "more numbers of hawks than grasshoppers can be supported",
+                    "more numbers of grasshoppers than hawks can be supported",
+                    "equal numbers of hawks and grasshoppers can be supported",
+                    "none of these",
+                ],
+                correctAnswer: 1,
+            },
+            {
+                question: `If we all become vegetarians, we'll be able to support our large populations. This can be explained through`,
+                options: [
+                    "10% rule",
+                    "1% rule",
+                    "trophic cascades",
+                    "biodiversity",
                 ],
                 correctAnswer: 0,
             },
             {
-                question: `Which of the following is not a biotic factor?`,
+                question: `Net primary productivity is given by`,
                 options: [
-                    "temperature",
-                    "food availability",
-                    "competition",
-                    "predation",
+                    "APAR x LUE",
+                    "APAR + LUE",
+                    "APAR - LUE",
+                    "APAR / LUE",
                 ],
                 correctAnswer: 0,
             },
         ],
-    },
+    },    
     {
-        week: 5,
-        questions: [
+        "week": 5,
+        "questions": [
             {
-                question: `The type of biodiversity that occurs within a single habitat is called`,
-                options: ["Alpha biodiversity", "Beta biodiversity", "Gamma biodiversity", "Delta biodiversity"],
-                correctAnswer: 0,
+                "question": "____ is how close the measured values are to the correct value",
+                "options": ["accuracy", "precision", "bias", "variance"],
+                "correctAnswer": 0
             },
             {
-                question: `Which of these processes is essential for plant survival?`,
-                options: ["Photosynthesis", "Respiration", "Reproduction", "None of the above"],
-                correctAnswer: 0,
+                "question": "Which of these is not a measure of absolute population density?",
+                "options": ["total count", "pelt count", "capture-recapture method", "removal method"],
+                "correctAnswer": 1
             },
             {
-                question: `Which type of ecosystem typically has the highest biodiversity?`,
-                options: ["Tropical rainforest", "Desert", "Tundra", "Grassland"],
-                correctAnswer: 0,
+                "question": "The logistic growth equation, when plotted, appears",
+                "options": ["I shaped", "J shaped", "S shaped", "O shaped"],
+                "correctAnswer": 2
             },
             {
-                question: `Which of these elements is not part of the ecosystem?`,
-                options: ["Producers", "Consumers", "Decomposers", "Energy"],
-                correctAnswer: 3,
+                "question": "______ employs a simple rule of selecting every kth unit starting with a number chosen at random from 1 to k as the random start",
+                "options": ["simple random sampling", "systematic sampling", "stratified sampling", "multistage sampling"],
+                "correctAnswer": 1
             },
             {
-                question: `Which of these is not a characteristic of a sustainable ecosystem?`,
-                options: ["Diversity", "Stability", "Vulnerability", "Resilience"],
-                correctAnswer: 2,
+                "question": "The juvenile mortality rate is the annual number of deaths of juveniles per",
+                "options": ["100 births", "1000 births", "100 live births", "1000 live births"],
+                "correctAnswer": 3
             },
             {
-                question: `Photosynthesis primarily occurs in which part of the plant?`,
-                options: ["Roots", "Stem", "Leaves", "Flowers"],
-                correctAnswer: 2,
+                "question": "The minimum replacement level fertility for a population to grow should be greater than",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 1
             },
             {
-                question: `The role of decomposers in an ecosystem is to`,
-                options: ["produce energy", "consume producers", "break down dead matter", "compete for resources"],
-                correctAnswer: 2,
+                "question": "Pan traps are used for sampling",
+                "options": ["bees", "butterflies", "non-pollinator insects", "pollinator insects"],
+                "correctAnswer": 3
             },
             {
-                question: `What is the primary source of energy for almost all ecosystems?`,
-                options: ["Wind", "Geothermal", "Sunlight", "Water"],
-                correctAnswer: 2,
+                "question": "Which of these is true?",
+                "options": [
+                    "physiological longevity > ecological longevity",
+                    "physiological longevity = ecological longevity",
+                    "physiological longevity < ecological longevity",
+                    "a or b"
+                ],
+                "correctAnswer": 3
             },
             {
-                question: `Which type of biome is characterized by low rainfall and extreme temperature fluctuations?`,
-                options: ["Desert", "Tundra", "Temperate forest", "Grassland"],
-                correctAnswer: 0,
+                "question": "A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
+                "options": ["simple random sampling", "systematic sampling", "stratified sampling", "multistage sampling"],
+                "correctAnswer": 0
             },
             {
-                question: `The main reason for the seasonal changes in climate is`,
-                options: ["the Earth's tilt", "the Earth's rotation", "the distance from the sun", "ocean currents"],
-                correctAnswer: 0,
-            },
-        ],
-    },
+                "question": "Cover board surveys are typically used for sampling",
+                "options": ["herpetofauna", "fishes", "large mammals", "carnivores"],
+                "correctAnswer": 0
+            }
+        ]
+    },    
     {
         week: 6,
         questions: [
+            {
+                question: `A climax caused by wildfires is an example of`,
+                options: ["climatic climax", "edaphic climax", "disclimax", "catastrophic climax"],
+                correctAnswer: 3,
+            },
+            {
+                question: `When compared to generalist species, specialist species have`,
+                options: ["narrower niches", "broader niches", "same-size niches", "none of these"],
+                correctAnswer: 0,
+            },
+            {
+                question: `Which of these depicts correctly the lithosere primary succession`,
+                options: [
+                    "rock --> crustose lichen --> foliose lichen --> moss --> herbaceous stage --> shrub --> woodland --> climax",
+                    "rock --> foliose lichen --> crustose lichen --> moss --> herbaceous stage --> shrub --> woodland --> climax",
+                    "moss --> crustose lichen --> foliose lichen --> rock --> herbaceous stage --> shrub --> woodland --> climax",
+                    "rock --> crustose lichen --> foliose lichen --> shrub --> herbaceous stage --> moss --> woodland --> climax"
+                ],
+                correctAnswer: 0,
+            },
+            {
+                question: `Importance value can be written as`,
+                options: [
+                    "relative density + relative frequency X relative dominance",
+                    "relative density X relative frequency + relative dominance",
+                    "relative density + relative frequency + relative dominance",
+                    "relative density X relative frequency X relative dominance"
+                ],
+                correctAnswer: 2,
+            },
+            {
+                question: `Lithosere is an example of`,
+                options: ["hydrosere", "xerosere", "psammosere", "halosere"],
+                correctAnswer: 1,
+            },
+            {
+                question: `Importance value varies from`,
+                options: ["0 to 10", "0 to 50", "0 to 100", "0 to 300"],
+                correctAnswer: 3,
+            },
+            {
+                question: `A species found most frequently in a particular community, but also present occasionally in others is called`,
+                options: ["accidental species", "indifferent species", "selective species", "exclusive species"],
+                correctAnswer: 2,
+            },
+            {
+                question: `The climax near Tindi village is being controlled by disturbance by cattle. This is an example of`,
+                options: ["climatic climax", "edaphic climax", "disclimax", "catastrophic climax"],
+                correctAnswer: 2,
+            },
+            {
+                question: `Which of these is correct?`,
+                options: [
+                    "fundamental niche > realised niche",
+                    "fundamental niche = realised niche",
+                    "fundamental niche < realised niche",
+                    "a or b"
+                ],
+                correctAnswer: 3,
+            },
+            {
+                question: `Which of these is not a characteristic of pioneer species`,
+                options: ["ability to grow on bare rocks", "ability to tolerate extreme temperatures", "large size", "short life span"],
+                correctAnswer: 2,
+            },
             {
                 question: `Which of the following elements is most abundant in the Earth's atmosphere?`,
                 options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
@@ -453,6 +523,66 @@ export const quizzes: Quiz[] = [
     {
         week: 7,
         questions: [
+            {
+                question: `I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about`,
+                options: ["autophagy", "allelophagy", "autopathy", "allelopathy"],
+                correctAnswer: 3,
+            },
+            {
+                question: `Which of these is a physical factor of habitat?`,
+                options: ["soil", "moisture", "predators", "temperatures"],
+                correctAnswer: 3,
+            },
+            {
+                question: `"The rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor" this is the statement for`,
+                options: [
+                    "Liebig's law of minimum",
+                    "Liebig's law of maximum",
+                    "Shelford's law of tolerance",
+                    "Shelford's law of intolerance",
+                ],
+                correctAnswer: 0,
+            },
+            {
+                question: `Transplantation experiments are used to find`,
+                options: ["potential range", "effective range", "actual range", "economic range"],
+                correctAnswer: 0,
+            },
+            {
+                question: `"Quick movement over large distances, often across unsuitable terrain" is a definition of`,
+                options: ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
+                correctAnswer: 2,
+            },
+            {
+                question: `The movement of lions across the Gir landscape is an example of`,
+                options: ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
+                correctAnswer: 0,
+            },
+            {
+                question: `Good climate is a`,
+                options: ["chemical factor", "demographic factor", "push factor", "pull factor"],
+                correctAnswer: 3,
+            },
+            {
+                question: `Scarcity of food is a`,
+                options: ["chemical factor", "demographic factor", "push factor", "pull factor"],
+                correctAnswer: 2,
+            },
+            {
+                question: `"The geographical distribution of a species will be controlled by that environment factor for which the organism has the narrowest range of tolerance" this is the statement for`,
+                options: [
+                    "Liebig's law of minimum",
+                    "Liebig's law of maximum",
+                    "Shelford's law of tolerance",
+                    "Shelford's law of intolerance",
+                ],
+                correctAnswer: 2,
+            },
+            {
+                question: `The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called`,
+                options: ["translocation", "migration", "dispersal", "drifting"],
+                correctAnswer: 2,
+            },
             {
                 question: `Which of the following describes the primary productivity of an ecosystem?`,
                 options: [
@@ -551,319 +681,319 @@ export const quizzes: Quiz[] = [
         ],
     },
     {
-        week: 8,
-        questions: [
+        "week": 8,
+        "questions": [
             {
-                question: `Which biome has the highest annual rainfall?`,
-                options: [
+                "question": "Which biome has the highest annual rainfall?",
+                "options": [
                     "Tundra",
                     "Desert",
                     "Tropical rainforest",
-                    "Temperate forest",
+                    "Temperate forest"
                 ],
-                correctAnswer: 2,
+                "correctAnswer": 2
             },
             {
-                question: `What term describes the movement of energy through an ecosystem?`,
-                options: [
+                "question": "What term describes the movement of energy through an ecosystem?",
+                "options": [
                     "Nutrient cycling",
                     "Food chain",
                     "Trophic level",
-                    "Biomagnification",
+                    "Biomagnification"
                 ],
-                correctAnswer: 1,
+                "correctAnswer": 1
             },
             {
-                question: `Which type of ecological succession occurs in an area where no soil exists?`,
-                options: [
+                "question": "Which type of ecological succession occurs in an area where no soil exists?",
+                "options": [
                     "Primary succession",
                     "Secondary succession",
                     "Climatic succession",
-                    "Zonal succession",
+                    "Zonal succession"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of these processes is a method of nitrogen cycling?`,
-                options: [
+                "question": "Which of these processes is a method of nitrogen cycling?",
+                "options": [
                     "Nitrification",
                     "Eutrophication",
                     "Photosynthesis",
-                    "Respiration",
+                    "Respiration"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of the following best describes biodiversity hotspots?`,
-                options: [
+                "question": "Which of the following best describes biodiversity hotspots?",
+                "options": [
                     "Areas with high species richness and high endemism",
                     "Areas with low species diversity",
                     "Areas undergoing significant deforestation",
-                    "Areas with high pollution levels",
+                    "Areas with high pollution levels"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of the following is a direct effect of climate change?`,
-                options: [
+                "question": "Which of the following is a direct effect of climate change?",
+                "options": [
                     "Increased biodiversity",
                     "Decreased ocean levels",
                     "More extreme weather patterns",
-                    "Enhanced photosynthesis",
+                    "Enhanced photosynthesis"
                 ],
-                correctAnswer: 2,
+                "correctAnswer": 2
             },
             {
-                question: `The primary cause of the greenhouse effect is`,
-                options: [
+                "question": "The primary cause of the greenhouse effect is",
+                "options": [
                     "Ozone depletion",
                     "Carbon dioxide emissions",
                     "Water vapor",
-                    "Methane production",
+                    "Methane production"
                 ],
-                correctAnswer: 1,
+                "correctAnswer": 1
             },
             {
-                question: `What is the term for species that are at risk of extinction?`,
-                options: [
+                "question": "What is the term for species that are at risk of extinction?",
+                "options": [
                     "Endangered species",
                     "Invasive species",
                     "Keystone species",
-                    "Threatened species",
+                    "Threatened species"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `The term for the gradual replacement of one community by another is`,
-                options: [
+                "question": "The term for the gradual replacement of one community by another is",
+                "options": [
                     "Ecological succession",
                     "Migration",
                     "Adaptation",
-                    "Natural selection",
+                    "Natural selection"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of the following is an example of an abiotic factor in an ecosystem?`,
-                options: [
+                "question": "Which of the following is an example of an abiotic factor in an ecosystem?",
+                "options": [
                     "Plants",
                     "Animals",
                     "Temperature",
-                    "Fungi",
+                    "Fungi"
                 ],
-                correctAnswer: 2,
-            },
-        ],
+                "correctAnswer": 2
+            }
+        ]
     },
     {
-        week: 9,
-        questions: [
+        "week": 9,
+        "questions": [
             {
-                question: `What is the primary source of energy for living organisms?`,
-                options: [
-                    "Sunlight",
-                    "Water",
-                    "Soil",
-                    "Air",
+                "question": "Which of these is a positive check according to Malthus?",
+                "options": [
+                    "Late marriage",
+                    "War",
+                    "Celibacy",
+                    "Moral restraint"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 1
             },
             {
-                question: `Which of the following processes does not require oxygen?`,
-                options: [
-                    "Aerobic respiration",
-                    "Photosynthesis",
-                    "Anaerobic respiration",
-                    "Fermentation",
+                "question": "The demographic transition sees a society move from",
+                "options": [
+                    "High birth rate, low death rate to low birth rate, low death rate",
+                    "Low birth rate, high death rate to low birth rate, low death rate",
+                    "High birth rate, high death rate to low birth rate, low death rate",
+                    "High birth rate, high death rate to low birth rate, high death rate"
                 ],
-                correctAnswer: 2,
+                "correctAnswer": 2
             },
             {
-                question: `The process by which plants release water vapor is known as`,
-                options: [
-                    "Transpiration",
-                    "Evaporation",
-                    "Condensation",
-                    "Precipitation",
+                "question": "According to the Malthusian model",
+                "options": [
+                    "Population grows in geometric progression, food supply increases in arithmetic progression",
+                    "Population grows in geometric progression, food supply increases in geometric progression",
+                    "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+                    "Population grows in arithmetic progression, food supply increases in geometric progression"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of the following describes the concept of carrying capacity?`,
-                options: [
-                    "The maximum population size an environment can sustain",
-                    "The minimum population size needed for survival",
-                    "The average lifespan of a species",
-                    "The rate of population growth",
+                "question": "The book 'An Essay on the Principle of Population' was written by",
+                "options": [
+                    "Darwin",
+                    "Malthus",
+                    "Spencer",
+                    "Owens"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 1
             },
             {
-                question: `What is the main cause of ocean acidification?`,
-                options: [
-                    "Increased carbon dioxide levels",
-                    "Excessive fishing",
-                    "Plastic pollution",
-                    "Oil spills",
+                "question": "_______ is used to identify which potential impacts are relevant to assess. (fill in the blank)",
+                "options": [
+                    "Screening",
+                    "Scoping",
+                    "Reporting",
+                    "Review"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 1
             },
             {
-                question: `What is the role of chlorophyll in photosynthesis?`,
-                options: [
-                    "To absorb light energy",
-                    "To produce glucose",
-                    "To release oxygen",
-                    "To store energy",
+                "question": "Which of these is a preventive check according to Malthus?",
+                "options": [
+                    "Foresight",
+                    "Vice",
+                    "Misery",
+                    "Flood"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of the following is a producer in an aquatic ecosystem?`,
-                options: [
-                    "Plankton",
-                    "Fish",
-                    "Crustaceans",
-                    "Mollusks",
+                "question": "______ determines which projects or developments require a full or partial impact assessment study. (fill in the blank)",
+                "options": [
+                    "Screening",
+                    "Scoping",
+                    "Reporting",
+                    "Review"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which term describes a species that has a disproportionately large impact on its environment relative to its abundance?`,
-                options: [
-                    "Endemic species",
-                    "Invasive species",
-                    "Keystone species",
-                    "Dominant species",
+                "question": "Which of these is a pillar of sustainability?",
+                "options": [
+                    "Social sustainability",
+                    "Industrial sustainability",
+                    "Agricultural sustainability",
+                    "Trans-boundary sustainability"
                 ],
-                correctAnswer: 2,
+                "correctAnswer": 0
             },
             {
-                question: `The primary method of energy transfer in an ecosystem is through`,
-                options: [
-                    "Food chains",
-                    "Food webs",
-                    "Nutrient cycles",
-                    "Photosynthesis",
+                "question": "Which of these is not a pillar of sustainability?",
+                "options": [
+                    "Environmental sustainability",
+                    "Economic sustainability",
+                    "Trans-boundary sustainability",
+                    "Agricultural sustainability"
                 ],
-                correctAnswer: 1,
+                "correctAnswer": 2
             },
             {
-                question: `What is the primary function of a wetland?`,
-                options: [
-                    "To filter pollutants",
-                    "To provide habitat for wildlife",
-                    "To store water",
-                    "All of the above",
+                "question": "The quantum of human impacts is given by",
+                "options": [
+                    "I = P X A X T",
+                    "I = P + A + T",
+                    "I = P + A - T",
+                    "I = P - (A+T)"
                 ],
-                correctAnswer: 3,
-            },
-        ],
+                "correctAnswer": 0
+            }
+        ]
     },
     {
-        week: 10,
-        questions: [
+        "week": 10,
+        "questions": [
             {
-                question: `What is the main process by which carbon is stored in plants?`,
-                options: [
+                "question": "What is the main process by which carbon is stored in plants?",
+                "options": [
                     "Respiration",
                     "Photosynthesis",
                     "Decomposition",
-                    "Combustion",
+                    "Combustion"
                 ],
-                correctAnswer: 1,
+                "correctAnswer": 1
             },
             {
-                question: `Which of the following ecosystems is most threatened by climate change?`,
-                options: [
+                "question": "Which of the following ecosystems is most threatened by climate change?",
+                "options": [
                     "Coral reefs",
                     "Temperate forests",
                     "Grasslands",
-                    "Deserts",
+                    "Deserts"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `The primary purpose of biodiversity conservation is to`,
-                options: [
+                "question": "The primary purpose of biodiversity conservation is to",
+                "options": [
                     "Protect endangered species",
                     "Maintain ecosystem services",
                     "Preserve genetic diversity",
-                    "All of the above",
+                    "All of the above"
                 ],
-                correctAnswer: 3,
+                "correctAnswer": 3
             },
             {
-                question: `Which of the following is a major consequence of deforestation?`,
-                options: [
+                "question": "Which of the following is a major consequence of deforestation?",
+                "options": [
                     "Increased biodiversity",
                     "Reduced carbon dioxide levels",
                     "Habitat loss",
-                    "Enhanced soil fertility",
+                    "Enhanced soil fertility"
                 ],
-                correctAnswer: 2,
+                "correctAnswer": 2
             },
             {
-                question: `What type of symbiotic relationship benefits one organism while harming the other?`,
-                options: [
+                "question": "What type of symbiotic relationship benefits one organism while harming the other?",
+                "options": [
                     "Commensalism",
                     "Mutualism",
                     "Parasitism",
-                    "Competition",
+                    "Competition"
                 ],
-                correctAnswer: 2,
+                "correctAnswer": 2
             },
             {
-                question: `What is the primary function of the ozone layer?`,
-                options: [
+                "question": "What is the primary function of the ozone layer?",
+                "options": [
                     "To absorb ultraviolet radiation",
                     "To regulate temperature",
                     "To provide oxygen",
-                    "To trap greenhouse gases",
+                    "To trap greenhouse gases"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `What term describes the gradual change in species composition of a community over time?`,
-                options: [
+                "question": "What term describes the gradual change in species composition of a community over time?",
+                "options": [
                     "Ecological succession",
                     "Migration",
                     "Adaptation",
-                    "Natural selection",
+                    "Natural selection"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of the following is a potential solution to climate change?`,
-                options: [
+                "question": "Which of the following is a potential solution to climate change?",
+                "options": [
                     "Reducing fossil fuel consumption",
                     "Increasing deforestation",
                     "Using more plastic products",
-                    "Decreasing renewable energy use",
+                    "Decreasing renewable energy use"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `What is the term for a group of ecosystems that share similar climate and organisms?`,
-                options: [
+                "question": "What is the term for a group of ecosystems that share similar climate and organisms?",
+                "options": [
                     "Biome",
                     "Habitat",
                     "Niche",
-                    "Community",
+                    "Community"
                 ],
-                correctAnswer: 0,
+                "correctAnswer": 0
             },
             {
-                question: `Which of the following is not a method of biodiversity conservation?`,
-                options: [
+                "question": "Which of the following is not a method of biodiversity conservation?",
+                "options": [
                     "Establishing protected areas",
                     "Restoring degraded ecosystems",
                     "Invasive species removal",
-                    "Promoting monoculture farming",
+                    "Promoting monoculture farming"
                 ],
-                correctAnswer: 3,
-            },
-        ],
+                "correctAnswer": 3
+            }
+        ]
     },
     {
         week: 11,
