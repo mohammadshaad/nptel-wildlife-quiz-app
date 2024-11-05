@@ -656,214 +656,214 @@ export const quizzes: Quiz[] = [
         ]
     },
     {
-        "week": 9,
-        "questions": [
+        week: 9,
+        questions: [
             {
-                "question": "Which of these is a positive check according to Malthus?",
-                "options": [
+                question: "Which of these is a positive check according to Malthus?",
+                options: [
                     "Late marriage",
                     "War",
                     "Celibacy",
-                    "Moral restraint"
+                    "Moral restraint",
                 ],
-                "correctAnswer": 1
+                correctAnswer: 1, // War
             },
             {
-                "question": "The demographic transition sees a society move from",
-                "options": [
+                question: "The demographic transition sees a society move from",
+                options: [
                     "High birth rate, low death rate to low birth rate, low death rate",
                     "Low birth rate, high death rate to low birth rate, low death rate",
                     "High birth rate, high death rate to low birth rate, low death rate",
-                    "High birth rate, high death rate to low birth rate, high death rate"
+                    "High birth rate, high death rate to low birth rate, high death rate",
                 ],
-                "correctAnswer": 2
+                correctAnswer: 2, // High birth rate, high death rate to low birth rate, low death rate
             },
             {
-                "question": "According to the Malthusian model",
-                "options": [
+                question: "According to Malthusian model",
+                options: [
                     "Population grows in geometric progression, food supply increases in arithmetic progression",
                     "Population grows in geometric progression, food supply increases in geometric progression",
                     "Population grows in arithmetic progression, food supply increases in arithmetic progression",
-                    "Population grows in arithmetic progression, food supply increases in geometric progression"
+                    "Population grows in arithmetic progression, food supply increases in geometric progression",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 0, // Population grows in geometric progression, food supply increases in arithmetic progression
             },
             {
-                "question": "The book 'An Essay on the Principle of Population' was written by",
-                "options": [
+                question: 'The book "An essay on the principle of population" was written by',
+                options: [
                     "Darwin",
                     "Malthus",
                     "Spencer",
-                    "Owens"
+                    "Owens",
                 ],
-                "correctAnswer": 1
+                correctAnswer: 1, // Malthus
             },
             {
-                "question": "_______ is used to identify which potential impacts are relevant to assess. (fill in the blank)",
-                "options": [
+                question: "_______ is used to identify which potential impacts are relevant to assess.",
+                options: [
                     "Screening",
                     "Scoping",
                     "Reporting",
-                    "Review"
+                    "Review",
                 ],
-                "correctAnswer": 1
+                correctAnswer: 1, // Scoping
             },
             {
-                "question": "Which of these is a preventive check according to Malthus?",
-                "options": [
+                question: "Which of these is a preventive check according to Malthus?",
+                options: [
                     "Foresight",
                     "Vice",
                     "Misery",
-                    "Flood"
+                    "Flood",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 0, // Foresight
             },
             {
-                "question": "______ determines which projects or developments require a full or partial impact assessment study. (fill in the blank)",
-                "options": [
+                question: "______ determines which projects or developments require a full or partial impact assessment study.",
+                options: [
                     "Screening",
                     "Scoping",
                     "Reporting",
-                    "Review"
+                    "Review",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 0, // Screening
             },
             {
-                "question": "Which of these is a pillar of sustainability?",
-                "options": [
+                question: "Which of these is a pillar of sustainability?",
+                options: [
                     "Social sustainability",
                     "Industrial sustainability",
                     "Agricultural sustainability",
-                    "Trans-boundary sustainability"
+                    "Trans-boundary sustainability",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 0, // Social sustainability
             },
             {
-                "question": "Which of these is not a pillar of sustainability?",
-                "options": [
+                question: "Which of these is not a pillar of sustainability?",
+                options: [
                     "Environmental sustainability",
                     "Economic sustainability",
                     "Trans-boundary sustainability",
-                    "Agricultural sustainability"
+                    "Agricultural sustainability",
                 ],
-                "correctAnswer": 2
+                correctAnswer: 2, // Trans-boundary sustainability
             },
             {
-                "question": "The quantum of human impacts is given by",
-                "options": [
+                question: "The quantum of human impacts is given by",
+                options: [
                     "I = P X A X T",
                     "I = P + A + T",
                     "I = P + A - T",
-                    "I = P - (A+T)"
+                    "I = P - (A+T)",
                 ],
-                "correctAnswer": 0
-            }
-        ]
+                correctAnswer: 0, // I = P X A X T
+            },
+        ],
     },
     {
-        "week": 10,
-        "questions": [
+        week: 10,
+        questions: [
             {
-                "question": "What is the main process by which carbon is stored in plants?",
-                "options": [
-                    "Respiration",
-                    "Photosynthesis",
-                    "Decomposition",
-                    "Combustion"
+                question: "Which of these is not a climatic forcing for Earth?",
+                options: [
+                    "changes in plate tectonics",
+                    "changes in Earth's orbit",
+                    "changes in Sun's orbit",
+                    "changes in Sun's strength",
                 ],
-                "correctAnswer": 1
+                correctAnswer: 2,
             },
             {
-                "question": "Which of the following ecosystems is most threatened by climate change?",
-                "options": [
-                    "Coral reefs",
-                    "Temperate forests",
-                    "Grasslands",
-                    "Deserts"
+                question: "Mesodebris in the context of plastic debris has fragment of size",
+                options: [
+                    ">20mm",
+                    "5-20 mm",
+                    "<5mm",
+                    "<1mm",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1,
             },
             {
-                "question": "The primary purpose of biodiversity conservation is to",
-                "options": [
-                    "Protect endangered species",
-                    "Maintain ecosystem services",
-                    "Preserve genetic diversity",
-                    "All of the above"
+                question: "Macrodebris in the context of plastic debris has fragment of size",
+                options: [
+                    ">20mm",
+                    "5-20mm",
+                    "<5mm",
+                    "<1mm",
                 ],
-                "correctAnswer": 3
+                correctAnswer: 0,
             },
             {
-                "question": "Which of the following is a major consequence of deforestation?",
-                "options": [
-                    "Increased biodiversity",
-                    "Reduced carbon dioxide levels",
-                    "Habitat loss",
-                    "Enhanced soil fertility"
+                question: `"Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead" is a definition of`,
+                options: [
+                    "adaptation",
+                    "mitigation",
+                    "maladaptation",
+                    "malmitigation",
                 ],
-                "correctAnswer": 2
+                correctAnswer: 2,
             },
             {
-                "question": "What type of symbiotic relationship benefits one organism while harming the other?",
-                "options": [
-                    "Commensalism",
-                    "Mutualism",
-                    "Parasitism",
-                    "Competition"
+                question: "Which of these is not a principle of ecological restoration?",
+                options: [
+                    "ecological integrity",
+                    "long term sustainability",
+                    "benefits and engages scientists",
+                    "informed by past and future",
                 ],
-                "correctAnswer": 2
+                correctAnswer: 2,
             },
             {
-                "question": "What is the primary function of the ozone layer?",
-                "options": [
-                    "To absorb ultraviolet radiation",
-                    "To regulate temperature",
-                    "To provide oxygen",
-                    "To trap greenhouse gases"
+                question: "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs to reduce electricity consumption and CO2 emissions. In the context of climate change, such an action would be called",
+                options: [
+                    "adaptation",
+                    "mitigation",
+                    "deceleration",
+                    "maladaptation",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1,
             },
             {
-                "question": "What term describes the gradual change in species composition of a community over time?",
-                "options": [
-                    "Ecological succession",
-                    "Migration",
-                    "Adaptation",
-                    "Natural selection"
+                question: "Which of these is not a principle of ecological restoration?",
+                options: [
+                    "ecological integrity",
+                    "short term sustainability",
+                    "benefits and engages society",
+                    "informed by past and future",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1,
             },
             {
-                "question": "Which of the following is a potential solution to climate change?",
-                "options": [
-                    "Reducing fossil fuel consumption",
-                    "Increasing deforestation",
-                    "Using more plastic products",
-                    "Decreasing renewable energy use"
+                question: `"The ability of a system to adjust to climate change to moderate potential damages, take advantage of opportunities, or cope with consequences" is a definition of`,
+                options: [
+                    "adaptive response",
+                    "adaptive capacity",
+                    "mitigative response",
+                    "mitigative capacity",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1,
             },
             {
-                "question": "What is the term for a group of ecosystems that share similar climate and organisms?",
-                "options": [
-                    "Biome",
-                    "Habitat",
-                    "Niche",
-                    "Community"
+                question: "Which of these is not a climatic forcing for Earth?",
+                options: [
+                    "changes in plate tectonics",
+                    "changes in Earth's orbit",
+                    "changes in Moon's orbit",
+                    "changes in Sun's strength",
                 ],
-                "correctAnswer": 0
+                correctAnswer: 2,
             },
             {
-                "question": "Which of the following is not a method of biodiversity conservation?",
-                "options": [
-                    "Establishing protected areas",
-                    "Restoring degraded ecosystems",
-                    "Invasive species removal",
-                    "Promoting monoculture farming"
+                question: "Due to climate change, the Mudumalai tiger reserve is suffering from frequent droughts. The management has built artificial water holes and fills them with tankers. In the context of climate change, such an action would be called",
+                options: [
+                    "adaptation",
+                    "mitigation",
+                    "deceleration",
+                    "maladaptation",
                 ],
-                "correctAnswer": 3
-            }
-        ]
+                correctAnswer: 0,
+            },
+        ],
     },
     {
         week: 11,
