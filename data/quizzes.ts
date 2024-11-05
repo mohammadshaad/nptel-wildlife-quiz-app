@@ -449,159 +449,104 @@ export const quizzes: Quiz[] = [
         week: 7,
         questions: [
             {
-                question: `I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about`,
-                options: ["autophagy", "allelophagy", "autopathy", "allelopathy"],
+                question: "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about:",
+                options: [
+                    "Autophagy",
+                    "Allelophagy",
+                    "Autopathy",
+                    "Allelopathy"
+                ],
                 correctAnswer: 3,
             },
             {
-                question: `Which of these is a physical factor of habitat?`,
-                options: ["soil", "moisture", "predators", "temperatures"],
-                correctAnswer: 3,
+                question: "Which of these is a physical factor of habitat?",
+                options: [
+                    "Soil",
+                    "Moisture",
+                    "Predators",
+                    "Temperatures"
+                ],
+                correctAnswer: 2,
             },
             {
-                question: `"The rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor" this is the statement for`,
+                question: "The rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor. This is the statement for:",
                 options: [
                     "Liebig's law of minimum",
                     "Liebig's law of maximum",
                     "Shelford's law of tolerance",
-                    "Shelford's law of intolerance",
+                    "Shelford's law of intolerance"
                 ],
                 correctAnswer: 0,
             },
             {
-                question: `Transplantation experiments are used to find`,
-                options: ["potential range", "effective range", "actual range", "economic range"],
+                question: "Transplantation experiments are used to find:",
+                options: [
+                    "Potential range",
+                    "Effective range",
+                    "Actual range",
+                    "Economic range"
+                ],
                 correctAnswer: 0,
             },
             {
-                question: `"Quick movement over large distances, often across unsuitable terrain" is a definition of`,
-                options: ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
+                question: "\"Quick movement over large distances, often across unsuitable terrain\" is a definition of:",
+                options: [
+                    "Diffusion",
+                    "Secular dispersal",
+                    "Jump dispersal",
+                    "Drifting"
+                ],
                 correctAnswer: 2,
             },
             {
-                question: `The movement of lions across the Gir landscape is an example of`,
-                options: ["diffusion", "secular dispersal", "jump dispersal", "drifting"],
+                question: "The movement of lions across the Gir landscape is an example of:",
+                options: [
+                    "Diffusion",
+                    "Secular dispersal",
+                    "Jump dispersal",
+                    "Drifting"
+                ],
                 correctAnswer: 0,
             },
             {
-                question: `Good climate is a`,
-                options: ["chemical factor", "demographic factor", "push factor", "pull factor"],
+                question: "Good climate is a:",
+                options: [
+                    "Chemical factor",
+                    "Demographic factor",
+                    "Push factor",
+                    "Pull factor"
+                ],
                 correctAnswer: 3,
             },
             {
-                question: `Scarcity of food is a`,
-                options: ["chemical factor", "demographic factor", "push factor", "pull factor"],
+                question: "Scarcity of food is a:",
+                options: [
+                    "Chemical factor",
+                    "Demographic factor",
+                    "Push factor",
+                    "Pull factor"
+                ],
                 correctAnswer: 2,
             },
             {
-                question: `"The geographical distribution of a species will be controlled by that environment factor for which the organism has the narrowest range of tolerance" this is the statement for`,
+                question: "The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance. This is the statement for:",
                 options: [
                     "Liebig's law of minimum",
                     "Liebig's law of maximum",
                     "Shelford's law of tolerance",
-                    "Shelford's law of intolerance",
+                    "Shelford's law of intolerance"
                 ],
                 correctAnswer: 2,
             },
             {
-                question: `The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called`,
-                options: ["translocation", "migration", "dispersal", "drifting"],
-                correctAnswer: 2,
-            },
-            {
-                question: `Which of the following describes the primary productivity of an ecosystem?`,
+                question: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called:",
                 options: [
-                    "The total amount of biomass produced",
-                    "The rate of biomass production per unit area",
-                    "The efficiency of energy transfer",
-                    "The diversity of species present",
-                ],
-                correctAnswer: 1,
-            },
-            {
-                question: `What is the term for the variety of life in a particular habitat?`,
-                options: [
-                    "Genetic diversity",
-                    "Species diversity",
-                    "Ecosystem diversity",
-                    "Community diversity",
-                ],
-                correctAnswer: 1,
-            },
-            {
-                question: `What type of relationship exists between bees and flowering plants?`,
-                options: [
-                    "Parasitism",
-                    "Mutualism",
-                    "Commensalism",
-                    "Competition",
-                ],
-                correctAnswer: 1,
-            },
-            {
-                question: `What is the primary cause of habitat loss?`,
-                options: [
-                    "Climate change",
-                    "Pollution",
-                    "Urbanization",
-                    "Invasive species",
+                    "Translocation",
+                    "Migration",
+                    "Dispersal",
+                    "Drifting"
                 ],
                 correctAnswer: 2,
-            },
-            {
-                question: `Which of the following is a characteristic of r-strategists?`,
-                options: [
-                    "Low reproductive rate",
-                    "Long lifespan",
-                    "High parental care",
-                    "Rapid reproduction",
-                ],
-                correctAnswer: 3,
-            },
-            {
-                question: `The interaction between two species where one benefits and the other is neither helped nor harmed is called`,
-                options: [
-                    "Mutualism",
-                    "Commensalism",
-                    "Parasitism",
-                    "Competition",
-                ],
-                correctAnswer: 1,
-            },
-            {
-                question: `Which process is responsible for the water cycle?`,
-                options: [
-                    "Evaporation",
-                    "Precipitation",
-                    "Transpiration",
-                    "All of the above",
-                ],
-                correctAnswer: 3,
-            },
-            {
-                question: `Which of these gases is a greenhouse gas?`,
-                options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-                correctAnswer: 2,
-            },
-            {
-                question: `Which of the following best describes an ecological niche?`,
-                options: [
-                    "The role an organism plays in its ecosystem",
-                    "The physical space an organism occupies",
-                    "The evolutionary history of a species",
-                    "The genetic makeup of a population",
-                ],
-                correctAnswer: 0,
-            },
-            {
-                question: `Which of the following factors contributes to global warming?`,
-                options: [
-                    "Decreased carbon emissions",
-                    "Increased deforestation",
-                    "Increased solar energy",
-                    "Increased biodiversity",
-                ],
-                correctAnswer: 1,
             },
         ],
     },
