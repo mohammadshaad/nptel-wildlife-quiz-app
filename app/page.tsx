@@ -24,6 +24,7 @@ export default function HomePage() {
           </div>
         </CardContent>
       </Card> */}
+      Loading...please wait
     </div>
   );
 }
