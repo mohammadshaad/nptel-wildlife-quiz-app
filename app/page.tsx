@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
-      {/* <Card className="w-full max-w-4xl">
+      <Card className="w-full max-w-4xl">
         <CardHeader>
           <CardTitle className="text-4xl text-center">Weekly Practice Quiz</CardTitle>
         </CardHeader>
@@ -23,8 +23,7 @@ export default function HomePage() {
             ))}
           </div>
         </CardContent>
-      </Card> */}
-      Loading...please wait
+      </Card>
     </div>
   );
 }
