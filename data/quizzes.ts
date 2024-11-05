@@ -379,17 +379,17 @@ export const quizzes: Quiz[] = [
         week: 6,
         questions: [
             {
-                question: `A climax caused by wildfires is an example of`,
+                question: "A climax caused by wildfires is an example of",
                 options: ["climatic climax", "edaphic climax", "disclimax", "catastrophic climax"],
                 correctAnswer: 3,
             },
             {
-                question: `When compared to generalist species, specialist species have`,
+                question: "When compared to generalist species, specialist species have",
                 options: ["narrower niches", "broader niches", "same-size niches", "none of these"],
                 correctAnswer: 0,
             },
             {
-                question: `Which of these depicts correctly the lithosere primary succession`,
+                question: "Which of these depicts correctly the lithosere primary succession",
                 options: [
                     "rock --> crustose lichen --> foliose lichen --> moss --> herbaceous stage --> shrub --> woodland --> climax",
                     "rock --> foliose lichen --> crustose lichen --> moss --> herbaceous stage --> shrub --> woodland --> climax",
@@ -399,7 +399,7 @@ export const quizzes: Quiz[] = [
                 correctAnswer: 0,
             },
             {
-                question: `Importance value can be written as`,
+                question: "Importance value can be written as",
                 options: [
                     "relative density + relative frequency X relative dominance",
                     "relative density X relative frequency + relative dominance",
@@ -409,27 +409,27 @@ export const quizzes: Quiz[] = [
                 correctAnswer: 2,
             },
             {
-                question: `Lithosere is an example of`,
+                question: "Lithosere is an example of",
                 options: ["hydrosere", "xerosere", "psammosere", "halosere"],
                 correctAnswer: 1,
             },
             {
-                question: `Importance value varies from`,
+                question: "Importance value varies from",
                 options: ["0 to 10", "0 to 50", "0 to 100", "0 to 300"],
                 correctAnswer: 3,
             },
             {
-                question: `A species found most frequently in a particular community, but also present occasionally in others is called`,
+                question: "A species found most frequently in a particular community, but also present occasionally in others is called",
                 options: ["accidental species", "indifferent species", "selective species", "exclusive species"],
                 correctAnswer: 2,
             },
             {
-                question: `The climax near Tindi village is being controlled by disturbance by cattle. This is an example of`,
+                question: "The climax near Tindi village is being controlled by disturbance by cattle. This is an example of",
                 options: ["climatic climax", "edaphic climax", "disclimax", "catastrophic climax"],
                 correctAnswer: 2,
             },
             {
-                question: `Which of these is correct?`,
+                question: "Which of these is correct?",
                 options: [
                     "fundamental niche > realised niche",
                     "fundamental niche = realised niche",
@@ -439,84 +439,9 @@ export const quizzes: Quiz[] = [
                 correctAnswer: 3,
             },
             {
-                question: `Which of these is not a characteristic of pioneer species`,
+                question: "Which of these is not a characteristic of pioneer species",
                 options: ["ability to grow on bare rocks", "ability to tolerate extreme temperatures", "large size", "short life span"],
                 correctAnswer: 2,
-            },
-            {
-                question: `Which of the following elements is most abundant in the Earth's atmosphere?`,
-                options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-                correctAnswer: 1,
-            },
-            {
-                question: `The branch of ecology that deals with the study of ecosystems is called`,
-                options: ["Community ecology", "Population ecology", "Ecosystem ecology", "Organismal ecology"],
-                correctAnswer: 2,
-            },
-            {
-                question: `Which of these is a non-renewable resource?`,
-                options: ["Solar energy", "Wind energy", "Coal", "Geothermal energy"],
-                correctAnswer: 2,
-            },
-            {
-                question: `Which of the following describes the process of nitrogen fixation?`,
-                options: [
-                    "Conversion of atmospheric nitrogen to ammonia",
-                    "Conversion of ammonia to nitrate",
-                    "Conversion of nitrate to nitrogen gas",
-                    "Conversion of nitrogen gas to organic nitrogen",
-                ],
-                correctAnswer: 0,
-            },
-            {
-                question: `What is the primary driver of ocean currents?`,
-                options: ["Wind", "Temperature", "Salinity", "Earth's rotation"],
-                correctAnswer: 0,
-            },
-            {
-                question: `Which biome is characterized by permafrost?`,
-                options: ["Tundra", "Desert", "Tropical rainforest", "Temperate forest"],
-                correctAnswer: 0,
-            },
-            {
-                question: `In a food web, producers are organisms that`,
-                options: [
-                    "consume other organisms",
-                    "decompose dead matter",
-                    "make their own food",
-                    "none of the above",
-                ],
-                correctAnswer: 2,
-            },
-            {
-                question: `Which of the following is a characteristic of K-strategists?`,
-                options: [
-                    "High reproductive rate",
-                    "Short lifespan",
-                    "Parental care",
-                    "Rapid population growth",
-                ],
-                correctAnswer: 2,
-            },
-            {
-                question: `Which of the following biogeochemical cycles does not include the atmosphere?`,
-                options: [
-                    "Carbon cycle",
-                    "Nitrogen cycle",
-                    "Phosphorus cycle",
-                    "Water cycle",
-                ],
-                correctAnswer: 2,
-            },
-            {
-                question: `The phenomenon of increased nutrient input into aquatic systems, leading to excessive growth of algae, is known as`,
-                options: [
-                    "Eutrophication",
-                    "Acidification",
-                    "Pollution",
-                    "Overfishing",
-                ],
-                correctAnswer: 0,
             },
         ],
     },
