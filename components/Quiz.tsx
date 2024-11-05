@@ -207,7 +207,7 @@ export default function Quiz({ week }: QuizProps) {
                         key={optionIndex}
                         variant={answers[questionMap[index]] === optionIndex ? "default" : "outline"}
                         onClick={() => handleOptionClick(index, optionIndex)}
-                        className="h-auto py-4 px-6 text-left justify-start"
+                        className="h-auto py-4 px-6 text-left justify-start text-wrap"
                       >
                         {option}
                       </Button>
