@@ -551,107 +551,107 @@ export const quizzes: Quiz[] = [
         ],
     },
     {
-        "week": 8,
-        "questions": [
+        week: 8,
+        questions: [
             {
-                "question": "Which biome has the highest annual rainfall?",
-                "options": [
-                    "Tundra",
-                    "Desert",
-                    "Tropical rainforest",
-                    "Temperate forest"
+                question: "According to Leopold, which of these is not a tool of habitat management?",
+                options: [
+                    "fire",
+                    "gun",
+                    "cattle",
+                    "sickle"
                 ],
-                "correctAnswer": 2
+                correctAnswer: 3
             },
             {
-                "question": "What term describes the movement of energy through an ecosystem?",
-                "options": [
-                    "Nutrient cycling",
-                    "Food chain",
-                    "Trophic level",
-                    "Biomagnification"
+                question: "Which of these correctly represents the process of habitat fragmentation and loss?",
+                options: [
+                    "original forest --> dissection --> perforation --> fragmentation --> attrition",
+                    "original forest --> dissection --> attrition --> fragmentation --> perforation",
+                    "original forest --> dissection --> perforation --> attrition --> fragmentation",
+                    "original forest --> dissection --> fragmentation --> perforation --> attrition"
                 ],
-                "correctAnswer": 1
+                correctAnswer: 0
             },
             {
-                "question": "Which type of ecological succession occurs in an area where no soil exists?",
-                "options": [
-                    "Primary succession",
-                    "Secondary succession",
-                    "Climatic succession",
-                    "Zonal succession"
+                question: "We prefer those areas for the creation of conservation reserve where the level of threat is",
+                options: [
+                    "very high",
+                    "medium",
+                    "very low",
+                    "non-existent"
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1
             },
             {
-                "question": "Which of these processes is a method of nitrogen cycling?",
-                "options": [
-                    "Nitrification",
-                    "Eutrophication",
-                    "Photosynthesis",
-                    "Respiration"
+                question: "The 'subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce' is the definition of",
+                options: [
+                    "habitat",
+                    "ecosystem",
+                    "biome",
+                    "biosphere"
                 ],
-                "correctAnswer": 0
+                correctAnswer: 0
             },
             {
-                "question": "Which of the following best describes biodiversity hotspots?",
-                "options": [
-                    "Areas with high species richness and high endemism",
-                    "Areas with low species diversity",
-                    "Areas undergoing significant deforestation",
-                    "Areas with high pollution levels"
+                question: "Captive breeding is an example of",
+                options: [
+                    "in-situ conservation",
+                    "ex-situ conservation",
+                    "in-situ preservation",
+                    "ex-situ preservation"
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1
             },
             {
-                "question": "Which of the following is a direct effect of climate change?",
-                "options": [
-                    "Increased biodiversity",
-                    "Decreased ocean levels",
-                    "More extreme weather patterns",
-                    "Enhanced photosynthesis"
+                question: "Which of these is a deterministic factor?",
+                options: [
+                    "environmental variation",
+                    "forest fire",
+                    "death rate",
+                    "diseases"
                 ],
-                "correctAnswer": 2
+                correctAnswer: 2
             },
             {
-                "question": "The primary cause of the greenhouse effect is",
-                "options": [
-                    "Ozone depletion",
-                    "Carbon dioxide emissions",
-                    "Water vapor",
-                    "Methane production"
+                question: "Which of these is a stochastic factor?",
+                options: [
+                    "birth rate",
+                    "death rate",
+                    "population structure",
+                    "environmental fluctuation"
                 ],
-                "correctAnswer": 1
+                correctAnswer: 3
             },
             {
-                "question": "What is the term for species that are at risk of extinction?",
-                "options": [
-                    "Endangered species",
-                    "Invasive species",
-                    "Keystone species",
-                    "Threatened species"
+                question: "A zoo is an example of",
+                options: [
+                    "in-situ conservation",
+                    "ex-situ conservation",
+                    "in-situ preservation",
+                    "ex-situ preservation"
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1
             },
             {
-                "question": "The term for the gradual replacement of one community by another is",
-                "options": [
-                    "Ecological succession",
-                    "Migration",
-                    "Adaptation",
-                    "Natural selection"
+                question: "The acronym HIPPO does not include",
+                options: [
+                    "habitat loss",
+                    "habitat enhancement",
+                    "invasive species",
+                    "human over-population"
                 ],
-                "correctAnswer": 0
+                correctAnswer: 1
             },
             {
-                "question": "Which of the following is an example of an abiotic factor in an ecosystem?",
-                "options": [
-                    "Plants",
-                    "Animals",
-                    "Temperature",
-                    "Fungi"
+                question: "The acronym HIPPO does not include",
+                options: [
+                    "habitat loss",
+                    "invasive species",
+                    "pollination",
+                    "pollution"
                 ],
-                "correctAnswer": 2
+                correctAnswer: 2
             }
         ]
     },
