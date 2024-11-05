@@ -150,7 +150,7 @@ export default function Quiz({ week }: QuizProps) {
       <div className="flex justify-between items-center mb-4">
         <div className="flex gap-2">
           <Link href={week > 1 ? `/week/${week - 1}` : "/"}>
-            <Button variant="outline" size="icon">
+            <Button variant="outline" size="icon" onClick={() => {resetQuiz();}}>
               <ChevronLeft className="h-4 w-4" />
             </Button>
           </Link>
@@ -171,7 +171,7 @@ export default function Quiz({ week }: QuizProps) {
           </Button>
         </div>
         <Link href="/">
-          <Button variant="outline" size="icon">
+          <Button variant="outline" size="icon" onClick={() => {resetQuiz();}}>
             <Home className="h-4 w-4" />
           </Button>
         </Link>
